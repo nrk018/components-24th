@@ -1,0 +1,1325 @@
+.my-component {
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
+  body{
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+ 
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.w-96 {
+    width: 24rem;
+}
+
+.bg-opacity-85 {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+  
+  /* HOME PAGE */
+  .imageContainer {
+      position: relative;
+      overflow: hidden;
+  
+  }
+  
+  .centered-container {
+    margin-top: 10%;
+   margin-left: 20%;
+    height: 32vh; /* Adjust height as needed */
+  }
+  
+  .login-home{
+    margin-top: -20%;
+    margin-left: -15%;
+  }
+  
+  .text{
+    font-size: large;
+    color: black;
+  }
+  
+  .text1 {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px; /* Adjust the value to make the edges more or less circular */
+    background-color: #ffffff; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .text1:hover {
+    background-color: #acadaf; /* Change the background color on hover */
+  }
+  
+  .centeredDiv {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 20%; 
+      border-radius: 12px; 
+      text-align: center;
+  }
+    
+  .centeredDiv2 {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 135, 0, 0.8); 
+      width: 90%; 
+      height:55%;
+      max-width: 400px; 
+      border-radius: 12px; 
+      text-align: center;
+      padding-top: 2%;
+  }
+  
+  
+  .text1 {
+      position: relative;
+      margin-top:3% ;
+      font-size: 1.5vw;
+      color: #333; 
+  }
+    
+  .back{
+      width: 55%;
+      position: absolute;
+      left:20%;
+      top:11%;
+  }
+  
+  
+  
+  /* MAIN */
+  
+  .navbar {
+      background-color: #ff8800e5;
+      padding: 1%;
+      padding-left: 2%;
+      padding-right: 2%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+  
+  
+    .search-box {
+      display: flex;
+      align-items: center;
+      margin-left: 65%; /* Adjust as needed */
+  }
+  
+  .search-box input[type="text"] {
+      border-radius: 20px; /* Adjust as needed */
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      outline: none;
+  }
+  
+  .search-box button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 8px;
+      margin-left: -20px; /* Adjust as needed */
+      cursor: pointer;
+  }
+  
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-right: 20px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    
+    .profile-image {
+      border-radius: 50%;
+      overflow: hidden;
+      width: 40px;
+      height: 40px;
+    }
+    
+    .profile-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+  
+  
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    .navbar li {
+      margin-right: 15%; /* Adjust the value as needed */
+    }
+    
+    .navbar a {
+      text-decoration: none;
+      color: black;
+    }
+    
+  
+    /* MAIN */
+  
+    .small-squares {
+      /* padding-left: 4px; */
+      /* padding-right: 4px; */
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+  }
+  
+  
+    
+    .tick {
+      padding: 0.5rem;
+      display: flex;
+      width: 30px;
+      height: 30px;
+      margin: 0.2rem;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.3s ease; /* Adding transition for smooth color change */
+    }
+    
+    /* Change the border color when button is hovered */
+    .tick:hover {
+      background-color: rgba(0, 0, 0, 0.1); /* Adjust the color to be slightly darker */
+    }
+  
+    
+    /* Hide default button styles */
+    .tick button {
+      border: none;
+      background: none;
+    }
+    
+    /* Adjust tick image size if needed */
+    .tick img {
+      width: 15px;
+      height: 15px;
+  }
+  
+  .container_text{
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  
+    .select_box {
+      border-radius: 20%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  
+    
+  .tick_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    /* padding-bottom: 14px; */
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+    .tick_img{
+      display: flex;
+      align-self: center;
+    }
+  
+  
+    /* LOGIN */
+    .underline-input {
+      position: relative;
+    }
+    
+    .underline-input input {
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid black;
+      width: 40%;
+      padding: 8px;
+      margin-bottom: 10px;
+      outline: none;
+    }
+    
+  
+  
+  
+  
+  
+  
+    /* CREATE */
+    .form-container {
+      display: flex;
+      overflow: auto;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    
+    form {
+      width: 480px; /* Adjust the width as needed */
+    }
+    
+    .form-group {
+      margin-bottom: 10px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+  
+  /* MAIN */
+  /* .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    grid-gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:2.5%;
+  }
+  
+  .card {
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 1px solid #ccc;
+    padding: 12px;
+  }
+  
+  .card  {
+    color: rgb(52, 49, 76);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow: hidden;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 3px -2px, rgba(0, 0, 0, 0.04) 0px 3px 4px 0px, rgba(0, 0, 0, 0.04) 0px 1px 8px 0px !important;
+    padding: 24px !important;
+  }
+  
+  .card h2{
+    font-size: 21px;
+  }
+  
+  .card p{
+    font-size: 13.5px;
+  }
+  
+  .card-date {
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards in a row for laptop screens */
+    grid-gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 2.5%;
+  }
+  
+  @media (max-width: 1024px) {
+    .card-list {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards in a row for smaller screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .card-list {
+      grid-template-columns: repeat(1, 1fr); /* 1 card in a row for even smaller screens */
+    }
+  }
+  
+  .card {
+    width: fit-content;
+    border: 1px solid #ccc;
+    padding: 12px;
+    color: rgb(52, 49, 76);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow: hidden;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 3px -2px, rgba(0, 0, 0, 0.04) 0px 3px 4px 0px, rgba(0, 0, 0, 0.04) 0px 1px 8px 0px !important;
+    padding: 24px !important;
+  }
+  
+  .card h2 {
+    font-size: 21px;
+  }
+  
+  .card p {
+    font-size: 13.5px;
+  }
+  
+  .card-date {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  /*submit button*/
+  .input-label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* check */
+  .search-box {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-box input[type="text"] {
+    padding-right: 30px; /* Adjust this value according to your image size */
+  }
+  
+  .search-box button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; /* Adjust this value to position the button */
+    background: none;
+    border: none;
+  }
+  
+  .mag_img {
+    width: 20px; /* Adjust the size of the image */
+    height: auto;
+  }
+  
+  
+  .mag_img{
+    height: 12px;
+    width: 12px;
+  }
+  .submit-button {
+    display: flex;
+    align-self: center; 
+    margin-left: 50%;/* Center the button horizontally */
+    background-color: #f6a32e;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust the margin to position the button */
+    
+  }
+  
+  
+  
+  
+  /* note status */
+  
+  .edit-button {
+    background-color: #f6a32e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 4px;
+    cursor: pointer;
+  }
+  
+  /* user container */
+  .user-container{
+    background: rgba(227, 227, 227, 0.737);
+    z-index: 1;
+  }
+  
+  .orange_overlay {
+     background: #ffa5004a;
+       /* Ensure the overlay is behind other content */
+  }
+  
+  /* status */
+  .status_square {
+    /* padding-left: 4px; */
+    /* padding-right: 4px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .user_img{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .card {
+      width: fit-content;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: fit-content;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: fit-content;
+    }
+  }
+  
+  .red{
+    margin-left: 30%;
+    color: red;
+  }
+  
+  /* .add_notesheet {
+    background-color: #ff0000; 
+    color: #fff; 
+    transition: background-color 0.3s ease; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-right: 0.5rem;
+  } */
+  
+  /* .add_notesheet:hover {
+    background-color: #cc0000; 
+  } */
+  
+  
+  .assign{
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  /* .add{
+    margin: 1%;
+    position: relative;
+  } */
+  
+  .add {
+    position: fixed;
+    bottom: 100px;
+    right: 70px;
+    z-index: 999; /* Ensure it appears on top of other elements */
+  }
+  
+  .move {
+    text-align: right;
+  }
+  
+  .add_notesheet {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%; /* Makes it circular */
+    background-color: #007bff; /* Change the background color as needed */
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+  }
+  
+  .add_notesheet:hover {
+    background-color: #0056b3; /* Darker color when hovered */
+  }
+  
+  
+  .move{
+    float: left; 
+    width: 5%; /* Adjust the width as needed */
+    position: relative;
+    right: 0; /* Position the sidebar to the right */
+    /* top: 0;  */
+    bottom: 1rem;
+  }
+  
+  /* Your existing CSS styles */
+  /* Add additional styles for the form container and dropdown */
+  .form-container {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  
+  .form-group select {
+    appearance: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background: url('data:image/svg+xml;utf8,<svg fill="#888" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>') no-repeat right 10px center;
+    background-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .edit-button {
+    background-color: #28a745; /* Change the color as needed */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  /* CREATE */
+  
+  .outer-box {
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding around the form */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4); /* Box shadow for shading */
+    width: 40%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the box horizontally and add 20px of space from the top */
+  
+  }
+  
+  /* CREATE */
+  /* ARROW */
+  .arrow-down-container {
+    display: flex;
+    align-items: center;
+    height: 80px; /* Adjust height as needed */
+    position: relative;
+  }
+  
+  .arrow-down {
+    position: absolute;
+    top: calc(10vh - 60px);
+    left: 50%; /* Center the arrow horizontally */
+    transform: translateX(-50%); /* Center the arrow horizontally */
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+  }
+  
+  
+  .arrow-down::before {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+  }
+  
+  
+  
+  .button-container {
+    margin-top: 20px; /* Adjust as needed */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .button-container button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: #f0f0f0; /* Light background color */
+    border: 2px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #ddd; /* Darker background color on hover */
+  }
+  
+  
+  /* USER */
+  .circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc; /* You can adjust the border color and width as needed */
+  }
+  
+  .hi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optionally, adjust this height to your preference */
+  }
+  
+  .user-profile-box {
+    border: 2px solid #ddd; /* Add border around the form */
+    padding: 20px; /* Add padding inside the box */
+    background-color: #f9f9f9; /* Add background color for shading */
+    width: 400px; /* Set width of the box */
+    margin: 5px auto 0; /* Center the box horizontally and add spacing to the top */
+    text-align: center; /* Center the content inside the box */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    border-radius: 10px;
+  }
+  
+  
+  .confirm-button,
+  .logout-button {
+    background-color: #d4221c; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 4px; /* Add spacing around buttons */
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover,
+  .logout-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .parent-container {
+    border-radius: 10px; /* Apply rounded corners */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to viewport height */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    width: 100%;
+  }
+   
+  
+  
+  /* STATUS */
+  
+  .container6 {
+    width: 100%; /* Adjust as needed */
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .container4 {
+    width: 70%; /* Adjust as needed */
+    margin: 3% auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for spacing */
+    background-color: rgba(255, 94, 44, 0.6); /* Background color of the progress bar */
+  
+  }
+  
+  .status-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    width: 500px;
+    height: 20px;
+    /* background-color: rgb(227, 227, 227); */
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .line {
+    width: 99%; /* Adjust as needed */
+    height: 2px; /* Line thickness */
+    background-color: rgb(177, 170, 170); /* Line color */
+    position: absolute;
+    top: 50%;
+    right: 1%; /* Center the line horizontally */
+    transform: translateY(-50%);
+  }
+  
+  .milestones {
+    position: relative;
+    width: 99%;
+    height: 100%;
+  }
+  
+  .milestone {
+    width: 10px; /* Width of milestone marker */
+    height: 10px; /* Height of milestone marker */
+    border-radius: 50%; /* Circle shape */
+    background-color: #007bff; /* Default color of milestone marker */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .pending {
+    background-color: #ffba42;
+  }
+  
+  .complete {
+    background-color: #47b566; /* Color of completed milestones */
+  }
+  
+  .incomplete {
+    background-color: red; /* Color of incomplete milestones */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* LATEST */
+  /* LOGIN */
+  
+  .Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/BG_main.png"); 
+    background-size: cover; 
+  }
+  .wrapper{
+    width: 480px;
+    background-color: rgba(255, 255, 255, 0.85); 
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .wrapper h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .wrapper .input-box{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    margin: 30px 30px;
+  }
+  
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder{
+    color: black;
+  }
+  
+  .input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
+  
+  .wrapper .remember-forgot{
+    accent-color: black;
+    margin-left: 69%;
+  }
+  
+  .remember-forgot label input{
+    accent-color: black;
+    text-decoration: none;
+  }
+  
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  
+  .wrapper button{
+    margin: 20px 90px;
+    width: 70%;
+    height: 45px;
+    background:#e68d6c ;
+    /* background:#e8ad97 ; */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .wrapper .logo {
+    margin-top: 3%;
+    margin-left:18% ;
+    margin-bottom: 3%;
+    width: 60%; 
+  }
+  
+  
+  /* CREATE FORM */
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .create-form{
+    width: 100%;
+  }
+  
+  /* .bg-primary {
+    position: relative; 
+    background-image: url('../images/BG_main.png'); 
+    background-size: cover; 
+    background-position: center; 
+  } */
+  
+  .bg-primary {
+    background-color: rgb(255,140,0,0.5);
+  }
+  
+  /* Adjust background size for different screen sizes */
+  @media (max-width: 768px) {
+    .bg-primary {
+      background-size: contain; 
+    }
+  }
+  
+  
+  .bg-primary::after {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position the pseudo-element */
+    top: 0; /* Align the pseudo-element to the top of the container */
+    left: 0; /* Align the pseudo-element to the left of the container */
+    width: 100%;/* Set the height to match the container */
+    
+  }
+  
+  .bg-primary > div {
+    position: relative; /* Make the div position relative */
+    z-index: 1; /* Ensure the div is above the pseudo-element */
+  }
+  
+  .vh-100 {
+  
+    height: 150vh;
+  }
+  
+  .bg-white {
+    background-color: #fff; 
+  }
+  
+  .p-3 {
+    padding: 0.75rem; 
+  }
+  
+  .rounded {
+    border-radius: 0.25rem; 
+  }
+  
+  .w-25 {
+    width: 60%;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .h2-create {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .create {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .button-container1 {
+    text-align: center; /* Center the button horizontally */
+  }
+  
+  .button-container1 button {
+    border-radius: 20px; /* Make the edges round */
+    background-color: #ee864f; /* Add a slight color */
+    padding: 10px 20px; /* Add padding for better visual appearance */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    
+    font-size: 16px; /* Increase text size */
+  }
+  
+  .button-container1 button:hover {
+    background-color: #f7bd8d; /* Darken the background color on hover */
+  }
+  
+  
+  /* MAIN NAV */
+  .navbar1 {
+    background-color: #ff8800e5;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar1 li {
+    margin-right: 15%; /* Adjust the value as needed */
+  }
+  
+  .navbar1 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .search-box1 {
+    display: flex;
+    align-items: center;
+    margin-left: 37%; /* Adjust as needed */
+   
+  }
+  
+  .search-box1 input[type="text"] {
+    border-radius: 20px; /* Adjust as needed */
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .search-box1 button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: -20px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  
+  .search-box1 .mag_img {
+    width: 20px; /* Adjust the size of the image */
+    height: auto;
+  }
+  
+  
+  .search-box1 .mag_img{
+    height: 12px;
+    width: 12px;
+  }
+  .search-box1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .search-box1 input[type="text"] {
+    padding-right: 30px; /* Adjust this value according to your image size */
+  }
+  
+  .search-box1 button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; /* Adjust this value to position the button */
+    background: none;
+    border: none;
+  }
+  
+  .mag_img {
+    width: 20px; /* Adjust the size of the image */
+    height: auto;
+  }
+  
+  
+  .mag_img{
+    height: 12px;
+    width: 12px;
+  }
+  
+  
+  /* .sort-dropdown select {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+  }
+  
+  .sort-dropdown select:hover {
+    border-color: #007bff;
+  } */
+  
+  .sort-dropdown {
+    margin-left: auto; /* Moves the sorting dropdown to the right */
+    margin-right: 100px; /* Adjust this value to move it further to the right */
+  }
+  .sort-dropdown select {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+  }
+  
+  .sort-dropdown select:hover {
+    border-color: #007bff;
+  }
+  
+  .search-box1 {
+    display: flex;
+    align-items: center;
+    margin-left: 33%; 
+    margin-right: 2.7%;
+  }
+  
+  
+  /* USER */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+  .user-container *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+  }
+  .profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid #ffffff40;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    background-color: rgb(255, 255, 255,0.8);
+  }
+  .image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+  }
+  .image .profile-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  }
+  .data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .data h2{
+    font-size: 33px;
+    font-weight: 600;
+  }
+  span{
+    font-size: 18px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .row .info{
+    text-align: center;
+    padding: 0 20px;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .buttons .btn{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 8px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    white-space: nowrap;
+    background: linear-gradient(to left, #faa047 0%, #f69139 100%);
+  }
+  .buttons .btn:hover{
+    box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
+  }
+  
+  .small-input {
+    width: 100px; /* Adjust width as needed */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Set border with RGBA color */
+    border-radius: 10px; /* Adjust border-radius as needed */
+    outline: none; /* Remove outline when focused */
+    text-align: center; /* Align text in the center */
+  }
+  .small-input1 {
+    width: 180px; /* Adjust width as needed */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Set border with RGBA color */
+    border-radius: 10px; /* Adjust border-radius as needed */
+    outline: none; /* Remove outline when focused */
+    text-align: center; /* Align text in the center */
+  }
+  
+  
+  .rounded-input {
+    border-radius: 10px; /* Adjust border-radius as needed */
+  }
+  
+  .user-profile-box {
+    border: 2px solid orange; /* Add border around the form */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding inside the box */
+    background-color: orange; /* Add background color for shading */
+    width: 500px; /* Set width of the box */
+    margin: 5px auto 0; 
+    text-align: center; 
+  }
+  
+  
+  
+  .submit-button {
+    display: flex;
+    align-self: center; 
+    margin-left: 50%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px; 
+    
+  }
+  
+  
+  
+  .input-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  footer {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
